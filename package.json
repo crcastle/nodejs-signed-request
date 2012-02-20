@@ -1,13 +1,13 @@
 {
   "name": "signed-request",
   "description": "A node.js signed string container.",
-  "version": "1.0.6",
-  "homepage": "https://github.com/nshah/nodejs-signed-request",
-  "author": "Naitik Shah <n@daaku.org>",
+  "version": "1.0.0",
+  "homepage": "https://github.com/crcastle/nodejs-signed-request",
+  "author": "Chris Castle <github@crc.io>",
   "main": "lib/signed-request",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nshah/nodejs-signed-request"
+    "url": "https://github.com/crcastle/nodejs-signed-request"
   },
   "scripts": { "test": "NODE_PATH=./lib mocha --ui exports" },
   "dependencies": {

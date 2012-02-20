@@ -10,9 +10,9 @@ function isInt(n) {
 exports['sign and verify'] = function() {
   var data = 'this is a secret message!',
       secret = 'abcd',
-      signed = signedRequest.stringify(data, secret),
-      parsed = signedRequest.parse(signed, secret);
-  assert.equal(data, parsed, 'expect the answer.');
+      signature = signedRequest.getSignature(data, secret),
+      isValid = signedRequest.isValidSignature(signature, data, secret);
+  assert(isValid, 'expect the answer.');
 };
 
 /*

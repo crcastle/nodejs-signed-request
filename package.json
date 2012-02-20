@@ -1,6 +1,6 @@
 {
   "name": "signed-request",
-  "description": "A signed JSON container.",
+  "description": "A node.js signed string container.",
   "version": "1.0.6",
   "homepage": "https://github.com/nshah/nodejs-signed-request",
   "author": "Naitik Shah <n@daaku.org>",
